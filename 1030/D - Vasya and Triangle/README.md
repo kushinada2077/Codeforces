@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/1030/problem/D" target="_blank" rel="noopener noreferrer">1030D — Vasya and Triangle</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1800 |
+| **Language** | C++20 (GCC 13-64) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1030D](https://codeforces.com/contest/1030/problem/D) |
+
+## Topics
+`geometry` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">D. Vasya and Triangle</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Vasya has got three integers $$$n$$$, $$$m$$$ and $$$k$$$. He'd like to find three integer points $$$(x_1, y_1)$$$, $$$(x_2, y_2)$$$, $$$(x_3, y_3)$$$, such that $$$0 \le x_1, x_2, x_3 \le n$$$, $$$0 \le y_1, y_2, y_3 \le m$$$ and the area of the triangle formed by these points is equal to $$$\frac{nm}{k}$$$.</p><p>Help Vasya! Find such points (if it's possible). If there are multiple solutions, print any of them.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The single line contains three integers $$$n$$$, $$$m$$$, $$$k$$$ ($$$1\le n, m \le 10^9$$$, $$$2 \le k \le 10^9$$$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>If there are no such points, print "<span class="tex-font-style-tt">NO</span>".</p><p>Otherwise print "<span class="tex-font-style-tt">YES</span>" in the first line. The next three lines should contain integers $$$x_i, y_i$$$ — coordinates of the points, one point per line. If there are multiple solutions, print any of them.</p><p>You can print each letter in any case (upper or lower).</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008038230753716109" id="id009382526941177436" class="input-output-copier">Copy</div></div><pre id="id008038230753716109">4 3 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006492691621322442" id="id005444126494242645" class="input-output-copier">Copy</div></div><pre id="id006492691621322442">YES<br>1 0<br>2 3<br>4 1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006624336561268109" id="id002008304703978293" class="input-output-copier">Copy</div></div><pre id="id006624336561268109">4 4 7<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id006882139902346597" id="id0022553774849886055" class="input-output-copier">Copy</div></div><pre id="id006882139902346597">NO<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example area of the triangle should be equal to $$$\frac{nm}{k} = 4$$$. The triangle mentioned in the output is pictured below: </p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/cc4813ec744a2853d8c408a61c517342bc3d8875.png" style="zoom: 75.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>In the second example there is no triangle with area $$$\frac{nm}{k} = \frac{16}{7}$$$.</p></div>
