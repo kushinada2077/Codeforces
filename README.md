@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 31 | 20 |
+| 36 | 20 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (3)
-- [brute force](#brute-force) (9)
+- [brute force](#brute-force) (10)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (11)
 - [data structures](#data-structures) (3)
@@ -26,11 +26,11 @@
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (11)
-- [implementation](#implementation) (12)
-- [math](#math) (13)
+- [implementation](#implementation) (16)
+- [math](#math) (14)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (7)
-- [strings](#strings) (1)
+- [strings](#strings) (3)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -55,6 +55,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
 | 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
@@ -163,11 +164,15 @@
 | 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
 | 104A | [Blackjack](https://codeforces.com/contest/104/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/104/A%20-%20Blackjack/solution.cpp) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
+| 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/136/A%20-%20Presents/solution.cpp) |
 | 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 244A | [Dividing Orange](https://codeforces.com/contest/244/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/244/A%20-%20Dividing%20Orange/solution.cpp) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
+| 276A | [Lunch Rush](https://codeforces.com/contest/276/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/276/A%20-%20Lunch%20Rush/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
@@ -177,6 +182,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 1983A | [Array Divisibility](https://codeforces.com/contest/1983/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/A%20-%20Array%20Divisibility/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
@@ -214,7 +220,9 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.cpp) |
 | 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 
 ### two pointers
 
