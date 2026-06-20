@@ -6,26 +6,31 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 15 |
+| 31 | 20 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (3)
-- [binary search](#binary-search) (2)
-- [brute force](#brute-force) (4)
-- [constructive algorithms](#constructive-algorithms) (6)
-- [data structures](#data-structures) (2)
-- [divide and conquer](#divide-and-conquer) (1)
-- [dp](#dp) (1)
+- [binary search](#binary-search) (3)
+- [brute force](#brute-force) (9)
+- [combinatorics](#combinatorics) (1)
+- [constructive algorithms](#constructive-algorithms) (11)
+- [data structures](#data-structures) (3)
+- [dfs and similar](#dfs-and-similar) (1)
+- [divide and conquer](#divide-and-conquer) (2)
+- [dp](#dp) (2)
 - [games](#games) (1)
 - [geometry](#geometry) (2)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (3)
-- [math](#math) (8)
+- [graph matchings](#graph-matchings) (1)
+- [graphs](#graphs) (1)
+- [greedy](#greedy) (11)
+- [implementation](#implementation) (12)
+- [math](#math) (13)
 - [number theory](#number-theory) (2)
-- [sortings](#sortings) (2)
+- [sortings](#sortings) (7)
+- [strings](#strings) (1)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -44,6 +49,7 @@
 |---|---------|------------|----------|
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
 
 ### brute force
 
@@ -53,6 +59,17 @@
 | 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
 | 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+| 2056B | [Find the Permutation](https://codeforces.com/contest/2056/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/B%20-%20Find%20the%20Permutation/solution.cpp) |
+| 2056C | [Palindromic Subsequences](https://codeforces.com/contest/2056/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/C%20-%20Palindromic%20Subsequences/solution.cpp) |
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
+| 2059B | [Cost of the Array](https://codeforces.com/contest/2059/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/B%20-%20Cost%20of%20the%20Array/solution.cpp) |
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
 
 ### constructive algorithms
 
@@ -64,6 +81,11 @@
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
 | 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+| 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.cpp) |
+| 2056C | [Palindromic Subsequences](https://codeforces.com/contest/2056/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/C%20-%20Palindromic%20Subsequences/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
+| 2059B | [Cost of the Array](https://codeforces.com/contest/2059/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/B%20-%20Cost%20of%20the%20Array/solution.cpp) |
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
 
 ### data structures
 
@@ -71,18 +93,27 @@
 |---|---------|------------|----------|
 | 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
+
+### dfs and similar
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2056B | [Find the Permutation](https://codeforces.com/contest/2056/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/B%20-%20Find%20the%20Permutation/solution.cpp) |
 
 ### divide and conquer
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2056D | [Unique Median](https://codeforces.com/contest/2056/problem/D) | 2200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/D%20-%20Unique%20Median/solution.cpp) |
 
 ### games
 
@@ -97,10 +128,23 @@
 | 1030B | [Vasya and Cornfield](https://codeforces.com/contest/1030/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1030/B%20-%20Vasya%20and%20Cornfield/solution.cpp) |
 | 1030D | [Vasya and Triangle](https://codeforces.com/contest/1030/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1030/D%20-%20Vasya%20and%20Triangle/solution.cpp) |
 
+### graph matchings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
+
+### graphs
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2056B | [Find the Permutation](https://codeforces.com/contest/2056/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/B%20-%20Find%20the%20Permutation/solution.cpp) |
+
 ### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
 | 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
@@ -108,19 +152,32 @@
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
 | 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
+| 2059B | [Cost of the Array](https://codeforces.com/contest/2059/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/B%20-%20Cost%20of%20the%20Array/solution.cpp) |
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
+| 104A | [Blackjack](https://codeforces.com/contest/104/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/104/A%20-%20Blackjack/solution.cpp) |
+| 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
+| 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 244A | [Dividing Orange](https://codeforces.com/contest/244/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/244/A%20-%20Dividing%20Orange/solution.cpp) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
+| 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
+| 2056B | [Find the Permutation](https://codeforces.com/contest/2056/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/B%20-%20Find%20the%20Permutation/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/200/B%20-%20Drinks/solution.cpp) |
 | 1983A | [Array Divisibility](https://codeforces.com/contest/1983/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/A%20-%20Array%20Divisibility/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
 | 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
@@ -129,6 +186,10 @@
 | 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
 | 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
 | 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+| 2056A | [Shape Perimeter](https://codeforces.com/contest/2056/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/A%20-%20Shape%20Perimeter/solution.cpp) |
+| 2056C | [Palindromic Subsequences](https://codeforces.com/contest/2056/problem/C) | 1200 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/C%20-%20Palindromic%20Subsequences/solution.cpp) |
+| 2059B | [Cost of the Array](https://codeforces.com/contest/2059/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/B%20-%20Cost%20of%20the%20Array/solution.cpp) |
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
 
 ### number theory
 
@@ -141,8 +202,19 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
+| 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
 | 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
+| 2056B | [Find the Permutation](https://codeforces.com/contest/2056/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2056/B%20-%20Find%20the%20Permutation/solution.cpp) |
+| 2059A | [Milya and Two Arrays](https://codeforces.com/contest/2059/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/A%20-%20Milya%20and%20Two%20Arrays/solution.cpp) |
+| 2059C | [Customer Service](https://codeforces.com/contest/2059/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2059/C%20-%20Customer%20Service/solution.cpp) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 
 ### two pointers
 
