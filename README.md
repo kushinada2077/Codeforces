@@ -6,21 +6,149 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 16 | 15 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [implementation](#implementation) (1)
+- [Uncategorized](#uncategorized) (3)
+- [binary search](#binary-search) (2)
+- [brute force](#brute-force) (4)
+- [constructive algorithms](#constructive-algorithms) (6)
+- [data structures](#data-structures) (2)
+- [divide and conquer](#divide-and-conquer) (1)
+- [dp](#dp) (1)
+- [games](#games) (1)
+- [geometry](#geometry) (2)
+- [greedy](#greedy) (7)
+- [implementation](#implementation) (3)
+- [math](#math) (8)
+- [number theory](#number-theory) (2)
+- [sortings](#sortings) (2)
+- [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1058A | [In Search of an Easy Problem](https://codeforces.com/contest/1058/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1058/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.cpp) |
+| 1058B | [Vasya and Cornfield](https://codeforces.com/contest/1058/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1058/B%20-%20Vasya%20and%20Cornfield/solution.cpp) |
+| 1058C | [Vasya and Golden Ticket](https://codeforces.com/contest/1058/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1058/C%20-%20Vasya%20and%20Golden%20Ticket/solution.cpp) |
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
+| 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+
+### constructive algorithms
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983A | [Array Divisibility](https://codeforces.com/contest/1983/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/A%20-%20Array%20Divisibility/solution.cpp) |
+| 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1030B | [Vasya and Cornfield](https://codeforces.com/contest/1030/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1030/B%20-%20Vasya%20and%20Cornfield/solution.cpp) |
+| 1030D | [Vasya and Triangle](https://codeforces.com/contest/1030/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1030/D%20-%20Vasya%20and%20Triangle/solution.cpp) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
+| 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 244A | [Dividing Orange](https://codeforces.com/contest/244/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/244/A%20-%20Dividing%20Orange/solution.cpp) |
+| 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
+| 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983A | [Array Divisibility](https://codeforces.com/contest/1983/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/A%20-%20Array%20Divisibility/solution.cpp) |
+| 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
+| 2043B | [Digits](https://codeforces.com/contest/2043/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/B%20-%20Digits/solution.cpp) |
+| 2043C | [Sums on Segments](https://codeforces.com/contest/2043/problem/C) | 1600 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/C%20-%20Sums%20on%20Segments/solution.cpp) |
+| 2055A | [Two Frogs](https://codeforces.com/contest/2055/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/A%20-%20Two%20Frogs/solution.cpp) |
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
+
+### number theory
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1030D | [Vasya and Triangle](https://codeforces.com/contest/1030/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1030/D%20-%20Vasya%20and%20Triangle/solution.cpp) |
+| 2043B | [Digits](https://codeforces.com/contest/2043/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/B%20-%20Digits/solution.cpp) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1983D | [Swap Dilemma](https://codeforces.com/contest/1983/problem/D) | 1700 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/D%20-%20Swap%20Dilemma/solution.cpp) |
+| 2055B | [Crafting](https://codeforces.com/contest/2055/problem/B) | 1000 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/B%20-%20Crafting/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2055C | [The Trail](https://codeforces.com/contest/2055/problem/C) | 1400 | [C++20 (GCC 13-64)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2055/C%20-%20The%20Trail/solution.cpp) |
 
 ---
 
