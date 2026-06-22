@@ -15,7 +15,6 @@ int main() {
   kushinada;
   int n, x;
   std::cin >> n >> x;
-  std::map<int, int> cnt;
   int sum = 0;
   for (int i = 0; i < n; ++i) {
     int a;
@@ -27,12 +26,6 @@ int main() {
     sum = -sum;
   }
  
-  int ans = 0;
-  while (sum > 0) {
-    ans += sum / x;
-    sum %= x;
-    x--;
-  }
- 
+  int ans = (sum + x - 1) / x;
   std::println("{}", ans);
 }
