@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 37 | 21 |
+| 38 | 21 |
 
 ---
 
@@ -26,7 +26,7 @@
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
 - [greedy](#greedy) (11)
-- [implementation](#implementation) (17)
+- [implementation](#implementation) (18)
 - [math](#math) (14)
 - [number theory](#number-theory) (2)
 - [shortest paths](#shortest-paths) (1)
@@ -167,6 +167,7 @@
 | 61A | [Ultra-Fast Mathematician](https://codeforces.com/contest/61/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/61/A%20-%20Ultra-Fast%20Mathematician/solution.cpp) |
 | 104A | [Blackjack](https://codeforces.com/contest/104/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/104/A%20-%20Blackjack/solution.cpp) |
 | 110A | [Nearly Lucky Number](https://codeforces.com/contest/110/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/110/A%20-%20Nearly%20Lucky%20Number/solution.cpp) |
+| 133A | [HQ9+](https://codeforces.com/contest/133/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/133/A%20-%20HQ9%2B/solution.cpp) |
 | 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/136/A%20-%20Presents/solution.cpp) |
 | 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.cpp) |
