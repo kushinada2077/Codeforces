@@ -15,41 +15,19 @@ int main() {
   kushinada;
   int r, c;
   std::cin >> r >> c;
-  std::vector<std::string> b(r);
   std::vector<int> rr(r), cc(c);
   for (int i = 0; i < r; ++i) {
-    std::cin >> b[i];
+    std::string s;
+    std::cin >> s;
     for (int j = 0; j < c; ++j) {
-      if (b[i][j] == 'S') {
+      if (s[j] == 'S') {
         rr[i] = 1;
         cc[j] = 1;
       }
     }
   }
  
-  for (int i = 0; i < r; ++i) {
-    if (!rr[i]) {
-      for (int j = 0; j < c; ++j) {
-        b[i][j] = 'e';
-      }
-    }
-  }
- 
-  for (int j = 0; j < c; ++j) {
-    if (!cc[j]) {
-      for (int i = 0; i < r; ++i) {
-        b[i][j] = 'e';
-      }
-    }
-  }
- 
-  int ans = 0;
-  for (int i = 0; i < r; ++i) {
-    for (int j = 0; j < c; ++j) {
-      if (b[i][j] == 'e') {
-        ans++;
-      }
-    }
-  }
-  std::println("{}", ans);
+  int empty_row = std::ranges::count(rr, 0);
+  int empty_col = std::ranges::count(cc, 0);
+  std::println("{}", empty_row * c + empty_col * r - empty_col * empty_row);
 }
