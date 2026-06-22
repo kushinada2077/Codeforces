@@ -16,11 +16,6 @@ int main() {
   int n;
   std::string s;
   std::cin >> n >> s;
-  int ans = 0;
-  for (int i = 0; i < n - 1; ++i) {
-    if (s[i] == s[i + 1]) {
-      ans++;
-    }
-  }
-  std::println("{}", ans);
+  auto ret = std::ranges::unique(s);
+  std::println("{}", ret.size());
 }
