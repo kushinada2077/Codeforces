@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 41 | 21 |
+| 42 | 21 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (3)
-- [brute force](#brute-force) (11)
+- [brute force](#brute-force) (12)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (3)
@@ -57,6 +57,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
+| 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
 | 330A | [Cakeminator](https://codeforces.com/contest/330/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/330/A%20-%20Cakeminator/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
 | 2043A | [Coin Transformation](https://codeforces.com/contest/2043/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/2043/A%20-%20Coin%20Transformation/solution.cpp) |
