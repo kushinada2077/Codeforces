@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 42 | 21 |
+| 43 | 21 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (3)
-- [brute force](#brute-force) (12)
+- [brute force](#brute-force) (13)
 - [combinatorics](#combinatorics) (1)
 - [constructive algorithms](#constructive-algorithms) (12)
 - [data structures](#data-structures) (3)
@@ -25,7 +25,7 @@
 - [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (11)
+- [greedy](#greedy) (12)
 - [implementation](#implementation) (21)
 - [math](#math) (14)
 - [number theory](#number-theory) (2)
@@ -56,6 +56,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.cpp) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
 | 330A | [Cakeminator](https://codeforces.com/contest/330/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/330/A%20-%20Cakeminator/solution.cpp) |
@@ -150,6 +151,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/kushinada2077/Codeforces/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.cpp) |
 | 1983B | [Corner Twist](https://codeforces.com/contest/1983/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/B%20-%20Corner%20Twist/solution.cpp) |
 | 1983C | [Have Your Cake and Eat It Too](https://codeforces.com/contest/1983/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/kushinada2077/Codeforces/blob/HEAD/1983/C%20-%20Have%20Your%20Cake%20and%20Eat%20It%20Too/solution.cpp) |
